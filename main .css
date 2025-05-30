@@ -1,0 +1,180 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+ font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: 18px;
+  font-weight: 28px;
+  font-style: normal;
+  background-color: #151515;
+  color: #ffffff;
+  padding: 32px;
+  max-width: 1190px;
+  width: 100%;
+  margin: auto;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+header p {
+  font-weight: 88px;
+  font-size: 28px;
+}
+
+nav ul {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+
+
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-bottom: 64px;
+}
+
+.intro-text h1 {
+  font-size: 88px;
+  font-weight: 88px;
+  line-height: -2.5px;
+}
+
+.intro-text h1 span {
+  border-bottom: 5px solid
+  #4ee1a0;
+
+}
+
+.intro-text p {
+  margin: 12px 12px;
+  max-width: 500px;
+}
+
+.intro-text a {
+  color: #4ee1a0;
+  text-decoration: none;
+  border-bottom: 1px solid #4ee1a0;
+  font-weight: bolde;
+}
+
+.intro-img-wrapper img {
+  max-width: 300px;
+  border-radius: 10px;
+  display: flex;
+  
+}
+.skills_wrapper {
+  margin: 80px 0;
+}
+
+.skills {
+  display: flex;
+  row-gap: 40px;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.skills li{
+  width: 33.3%;
+}
+.skills li h3{
+  font-size: 30px;
+  font-weight: 100px;
+}
+
+/* .skills_wrapper ul {
+  display: grid;
+  list-style: none;
+  gap: 32px;
+  margin: 54px 0px;
+  padding-top: 10px 0px 10px 0px;
+}
+
+.skills_wrapper h3 {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.skills_wrapper p {
+  color: #ffffff;
+  margin-top: 8px;
+} */
+
+
+.contact_wrapper {
+  margin-top: 70px;
+  max-width: 600px;
+}
+
+.contact_wrapper h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact_wrapper form article {
+  margin-bottom: 1rem;
+}
+input{
+    width: 100%;
+  padding: 8px;
+  background-color: #242424;
+  border: none;
+  color: #ffffff;
+}
+
+ textarea {
+  width: 100%;
+  padding: 8px;
+  background-color: #242424;
+  border: none;
+  color: #ffffff;
+}
+
+textarea {
+  height: 100px;
+}
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 32px;
+  padding-top: 32px;
+  
+}
+
+.projects{
+  display: flex;
+  justify-content: space-between;
+  row-gap: 40px;
+  flex-wrap: wrap;
+}
+
+.projects article {
+  width: 48%;
+} 
+
+.projects article img {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+ 
+
+}
